@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="81" Margin="155,164,0,0" VerticalAlignment="Top" Width="92">
+            <Label Content="imie"/>
+            <Label Content="nazwisko"/>
+            <Label Content="stanowisko"/>
+        </StackPanel>
+        <GroupBox Header="dane pracownika" Margin="148,128,363,153"/>
+        <TextBox HorizontalAlignment="Left" Margin="274,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="274,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <StackPanel HorizontalAlignment="Left" Height="153" Margin="493,146,0,0" VerticalAlignment="Top" Width="218">
+            <Label Content="ile znaków?"/>
+            <CheckBox Content="male i wielkie litery"/>
+            <CheckBox Content="cyfry" />
+            <CheckBox Content="znaki i specjalne"/>
+            <Button Content="generuj haslo" RenderTransformOrigin="0.521,2.06" Width="132"/>
+        </StackPanel>
+        <GroupBox HorizontalAlignment="Left" Height="156" Header="generowanie hasla" Margin="475,125,0,0" VerticalAlignment="Top" Width="254"/>
+        <ComboBox Margin="238,222,406,167" >
+            <ComboBoxItem Content="kierownik" Height="45"/>
+            <ComboBoxItem Content="starszy programista"/>
+            <ComboBoxItem Content="mlodszy programista"/>
+            <ComboBoxItem Content="tester"/>
+        </ComboBox>
+        <Button Content="zatwierdz" HorizontalAlignment="Left" Margin="381,304,0,0" VerticalAlignment="Top" Width="161" Height="44"/>
+
+
+
 
     </Grid>
 </Window>
